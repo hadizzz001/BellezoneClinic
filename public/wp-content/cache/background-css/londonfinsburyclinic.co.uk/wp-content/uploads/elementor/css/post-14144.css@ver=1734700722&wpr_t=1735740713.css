@@ -1,0 +1,32 @@
+.elementor-14144 .elementor-element.elementor-element-4502d684{--display:flex;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-14144 .elementor-element.elementor-element-1d047c31{--display:flex;--min-height:350px;--justify-content:space-between;--overlay-opacity:0.34;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-14144 .elementor-element.elementor-element-1d047c31:not(.elementor-motion-effects-element-type-background), .elementor-14144 .elementor-element.elementor-element-1d047c31 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:var(--wpr-bg-3a1760b4-812d-4776-ad66-39f73881f1c9);background-position:center center;background-size:cover;}.elementor-14144 .elementor-element.elementor-element-1d047c31::before, .elementor-14144 .elementor-element.elementor-element-1d047c31 > .elementor-background-video-container::before, .elementor-14144 .elementor-element.elementor-element-1d047c31 > .e-con-inner > .elementor-background-video-container::before, .elementor-14144 .elementor-element.elementor-element-1d047c31 > .elementor-background-slideshow::before, .elementor-14144 .elementor-element.elementor-element-1d047c31 > .e-con-inner > .elementor-background-slideshow::before, .elementor-14144 .elementor-element.elementor-element-1d047c31 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#000000;--background-overlay:'';}.elementor-14144 .elementor-element.elementor-element-1d047c31:hover::before, .elementor-14144 .elementor-element.elementor-element-1d047c31:hover > .elementor-background-video-container::before, .elementor-14144 .elementor-element.elementor-element-1d047c31:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-14144 .elementor-element.elementor-element-1d047c31 > .elementor-background-slideshow:hover::before, .elementor-14144 .elementor-element.elementor-element-1d047c31 > .e-con-inner > .elementor-background-slideshow:hover::before{--background-overlay:'';}.elementor-14144 .elementor-element.elementor-element-1d047c31:hover{--overlay-opacity:0.2;}.elementor-14144 .elementor-element.elementor-element-382b7ca3 .elementor-button{background-color:#00000000;font-size:14px;fill:#FFFFFF;color:#FFFFFF;border-style:solid;border-width:1px 1px 1px 1px;border-color:#FFFFFF;border-radius:50px 50px 50px 50px;padding:8px 30px 7px 30px;}.elementor-14144 .elementor-element.elementor-element-382b7ca3 > .elementor-widget-container{margin:25px 0px 0px 25px;}.elementor-14144 .elementor-element.elementor-element-1a63438d{--display:flex;--gap:10px 10px;--row-gap:10px;--column-gap:10px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-14144 .elementor-element.elementor-element-5398928c > .elementor-widget-container{padding:0px 0px 0px 25px;}.elementor-14144 .elementor-element.elementor-element-5398928c .elementor-heading-title{font-family:"Poppins", Sans-serif;font-size:30px;font-weight:500;color:#FFFFFF;}.elementor-14144 .elementor-element.elementor-element-5bdbdcaa > .elementor-widget-container{background-color:#00000063;padding:15px 0px 15px 25px;}.elementor-14144 .elementor-element.elementor-element-5bdbdcaa .elementor-heading-title{font-family:"Poppins", Sans-serif;font-size:20px;font-weight:400;color:#FFFFFF;}.elementor-14144 .elementor-element.elementor-element-5f8a8e2d{--display:flex;--min-height:350px;--justify-content:space-evenly;--padding-top:20px;--padding-bottom:30px;--padding-left:20px;--padding-right:20px;}.elementor-14144 .elementor-element.elementor-element-5f8a8e2d:not(.elementor-motion-effects-element-type-background), .elementor-14144 .elementor-element.elementor-element-5f8a8e2d > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-14144 .elementor-element.elementor-element-6adaa8f4 .elementor-heading-title{font-family:"Poppins", Sans-serif;font-size:16px;}.elementor-14144 .elementor-element.elementor-element-37030e9f .elementor-heading-title{font-size:15px;line-height:22px;}.elementor-14144 .elementor-element.elementor-element-59be869a .elementor-button{padding:13px 20px 13px 20px;}/* Start custom CSS for html, class: .elementor-element-b88b13b */#containerclick1,
+#containerclick2,
+#containerclick3,
+#containerclick4,
+#containerclick5,
+#containerclick6,
+#containerclick7,
+#containerclick8 {
+    cursor: pointer !important;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-14dab2c8 */.price-container {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.new-price {
+    color: #000;
+    margin-right: 10px;
+}
+
+.new-price .decimal-part {
+    font-size: 17px;  /* Decimal part ko chhota dikhane ke liye size set kiya */
+    vertical-align: bottom;  /* Top align kiya takay slightly upar lage */
+}
+
+.old-price {
+    color: red;
+    font-size: 15px;
+    text-decoration: line-through;
+    font-weight: normal;
+}/* End custom CSS */
