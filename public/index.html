@@ -5187,8 +5187,10 @@ fbq('track', 'PageView');
 														data-id="78b65892" data-element_type="widget"
 														data-widget_type="heading.default">
 														<div class="elementor-widget-container">
-															<h5 style="font-family: 'Manrope', serif;font-size: 14px;" class="elementor-heading-title elementor-size-default">
-																UNLEASH YOUR NATURAL BEAUTY<br>WITH OUR AESTHETICS SERVICES
+															<h5 id="title1" 
+																class="elementor-heading-title elementor-size-default">
+																UNLEASH YOUR NATURAL BEAUTY<br>WITH OUR AESTHETICS
+																SERVICES
 															</h5>
 														</div>
 													</div>
@@ -5206,7 +5208,8 @@ fbq('track', 'PageView');
 														data-id="1391fd35" data-element_type="widget"
 														data-widget_type="heading.default">
 														<div class="elementor-widget-container">
-															<h1 style="font-family: 'Manrope', serif;font-size: 16px;" class="elementor-heading-title elementor-size-default">
+															<h1 id="title2"
+																class="elementor-heading-title elementor-size-default">
 																THE PREMIER BEAUTY CLINIC<br>IN LEBANON</h1>
 														</div>
 													</div>
@@ -5218,7 +5221,7 @@ fbq('track', 'PageView');
 																<a class="elementor-button elementor-button-link elementor-size-sm"
 																	href="https://wa.me/96171072760">
 																	<span class="elementor-button-content-wrapper">
-																		<span class="elementor-button-text">Book Free
+																		<span class="elementor-button-text" style="font-size: 17px;">Book Free
 																			Consultation</span>
 																	</span>
 																</a>
@@ -5476,7 +5479,8 @@ fbq('track', 'PageView');
 
 
 
-									<div id="about" class="pc1" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+									<div id="about" class="pc1"
+										style="max-width: 1200px; margin: 0 auto; padding: 20px;">
 										<section
 											style="display: flex; align-items: flex-start; justify-content: space-between;"
 											data-id="34d9de9c" data-element_type="section">
@@ -5581,7 +5585,8 @@ fbq('track', 'PageView');
 										</section>
 									</div>
 
-									<div id="about" class="mob1" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+									<div id="about" class="mob1"
+										style="max-width: 1200px; margin: 0 auto; padding: 20px;">
 										<section
 											style="display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap;"
 											data-id="34d9de9c" data-element_type="section">
@@ -5706,32 +5711,34 @@ fbq('track', 'PageView');
 									</style>
 
 
-<style>
-/* Hide mob1 by default */
-.mob1 {
-    display: none;
-}
+									<style>
+										/* Hide mob1 by default */
+										.mob1 {
+											display: none;
+										}
 
-/* Show pc1 only on large screens */
-@media (min-width: 768px) {
-    .pc1 {
-        display: block;
-    }
-    .mob1 {
-        display: none;
-    }
-}
+										/* Show pc1 only on large screens */
+										@media (min-width: 768px) {
+											.pc1 {
+												display: block;
+											}
 
-/* Show mob1 only on small screens */
-@media (max-width: 767px) {
-    .pc1 {
-        display: none;
-    }
-    .mob1 {
-        display: block;
-    }
-}
-</style>
+											.mob1 {
+												display: none;
+											}
+										}
+
+										/* Show mob1 only on small screens */
+										@media (max-width: 767px) {
+											.pc1 {
+												display: none;
+											}
+
+											.mob1 {
+												display: block;
+											}
+										}
+									</style>
 
 
 
@@ -7211,10 +7218,12 @@ fbq('track', 'PageView');
 											</div>
 											<div class="has_ma_el_bg_slider elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-13168c79 elementor-hidden-tablet elementor-hidden-mobile jltma-glass-effect-no"
 												data-id="13168c79" data-element_type="column" style="display: block;">
-												<div class="elementor-widget-wrap elementor-element-populated" style="display: block;">
+												<div class="elementor-widget-wrap elementor-element-populated"
+													style="display: block;">
 													<div class="elementor-element elementor-element-2de5fb1b elementor-hidden-tablet elementor-hidden-mobile gallery-spacing-custom elementor-widget__width-initial jltma-glass-effect-no elementor-widget elementor-widget-image-gallery"
 														data-id="2de5fb1b" data-element_type="widget"
-														data-widget_type="image-gallery.default" style="display: block;">
+														data-widget_type="image-gallery.default"
+														style="display: block;">
 														<div class="elementor-widget-container">
 															<div class="elementor-image-gallery">
 																<div id='gallery-2'
@@ -7247,7 +7256,7 @@ fbq('track', 'PageView');
 										</div>
 									</section>
 
- 
+
 
 
 
@@ -8023,8 +8032,29 @@ form.append('<input type="hidden" name="vx_url" value="'+window.location.href+'"
 	</script>
 
 	<style>
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-</style>
+		@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+
+		#title1 {
+				font-family: 'Manrope', serif; 
+				font-size: 24px;
+			}
+			#title2 {
+				font-family: 'Manrope', serif; 
+				font-size: 26px;
+			}
+		@media only screen and (max-width: 768px) {
+			#title1 {
+				font-family: 'Manrope', serif;
+				font-size: 14px;
+			}
+			#title2 {
+				font-family: 'Manrope', serif;
+				font-size: 16px;
+			}
+		}
+	</style>
 
 
 </body>
